@@ -12,8 +12,7 @@ module.exports = {
     'ecmaFeatures': {
       'jsx': true
     },
-    'ecmaVersion': 2018,
-    'sourceType': 'module'
+    'ecmaVersion': 2018
   },
   'plugins': [
     'react', 'jest'
@@ -22,7 +21,7 @@ module.exports = {
     'indent': [
       'error',
         2
-      ],
+    ],
     'linebreak-style': [
       'error',
       'unix'
